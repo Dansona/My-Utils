@@ -24,7 +24,6 @@ import java.util.regex.Pattern;
 
 /**
  * 类功能描述: 常用工具类
- *
  * 转换类方法
  * 1.转换字符串(去前后空格) toStr(Object ov)
  * 需要不抛出异常用toStr(Object ov,Boolean flag)
@@ -36,7 +35,6 @@ import java.util.regex.Pattern;
  * 需要不抛出异常用toLong(Object ov,Boolean flag)
  * 5.转换为BigDecimal toBigDecimal(Object ov)
  * 需要不抛出异常用toBigDecimal(Object ov,Boolean flag)
- *
  * 判断类方法
  * 1.判断是空List isNullList(List listOb)
  * 2.判断是空Map isNullMap(Map mapOb)
@@ -47,13 +45,11 @@ import java.util.regex.Pattern;
  * 7.判断多种类型是否是0或者空
  * (方法描述: 自动判断对象类型,做不同的空或0判断
  * 支持 String,Integer,Long,BigDecimal,List,Map,String[])
- *
  * 功能类方法
  * 1.去除List的重复值 listValueUniq(List list)
  * 2.map根据key值排序 sortMapByKey(Map<String, String> map
  * @version 1.0
- * @author W1028 YJD
- * @createDate 2016-7-20 下午1:17:55
+ * @author cyl
  */
 public class ParamUtil {
 
